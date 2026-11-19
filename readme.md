@@ -1,7 +1,7 @@
 <div align="center">
   <img src="logo.png" alt="DRIVE-SEC Logo" width="420"/>
 
-  # DRIVE-SEC v2.3
+  # DRIVE-SEC v1.1
   **Suite de Diagnóstico de Hardware, Adquisición Forense Digital y Auditoría de Particiones para Linux**
 
   ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
