@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+venv/
+env/
+/env
+.venv/
+*.dd
+*.img
+*.raw
+*.log
+drivesec_*.txt
+env/
