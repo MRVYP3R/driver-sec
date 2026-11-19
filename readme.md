@@ -15,7 +15,7 @@
 
 **DRIVE-SEC** es una herramienta de interfaz gráfica construida en Python (`CustomTkinter`) diseñada para administradores de sistemas, técnicos de soporte crítico y analistas de **Forense Digital y Respuesta a Incidentes (DFIR)**. 
 
-Bajo el principio estoico de **controlar lo que ocurre en la capa física y lógica del almacenamiento sin depender de abstracciones opacas**, esta suite permite evaluar la salud real de unidades de almacenamiento, detectar hardware fraudulento, clonar evidencia bit a bit manteniendo la cadena de custodia y revelar particiones ocultas al sistema operativo.
+**controlar lo que ocurre en la capa física y lógica del almacenamiento sin depender de abstracciones opacas**, esta suite permite evaluar la salud real de unidades de almacenamiento, detectar hardware fraudulento, clonar evidencia bit a bit manteniendo la cadena de custodia y revelar particiones ocultas al sistema operativo.
 
 ---
 
@@ -76,7 +76,7 @@ pip install customtkinter pillow
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/TU_USUARIO/drive-sec.git
+   git clone https://github.com/MRVYP3R/driver-sec
    cd drive-sec
    ```
 
@@ -84,15 +84,15 @@ pip install customtkinter pillow
    Asegúrate de que el archivo de imagen `logo.png` se encuentre en el mismo directorio que el script principal (`driverSecClaude.py`) para que la suite cargue tanto el banner superior como el icono de ventana:
    ```text
    drive-sec/
-   ├── driverSecClaude.py
+   ├── driver-sec.py
    ├── logo.png
    └── README.md
    ```
 
 3. **Asigna permisos de ejecución y arranca la suite:**
    ```bash
-   chmod +x driverSecClaude.py
-   python3 driverSecClaude.py
+   chmod +x driver-sec.py
+   python3 driver-sec.py
    ```
    > **Nota:** Ejecuta el programa como tu usuario normal (no uses `sudo python3 ...`). Cuando una prueba o adquisición requiera acceso de bajo nivel al hardware, **DRIVE-SEC** solicitará tu contraseña de forma gráfica mediante `pkexec`.
 
